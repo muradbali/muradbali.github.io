@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV | [İsminiz]</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background: linear-gradient(135deg, #2c3e50, #bdc3c7);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .cv-container {
+            background: #34495e;
+            padding: 40px;
+            border-radius: 15px;
+            max-width: 800px;
+            width: 100%;
+            color: #ecf0f1;
+        }
+        .cv-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .cv-header h1 {
+            font-size: 2.5rem;
+        }
+        .cv-header p {
+            font-size: 1.2rem;
+            color: #bdc3c7;
+        }
+        .section-title {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 5px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h3 {
+            font-size: 1.3rem;
+            color: #e74c3c;
+        }
+        .section p {
+            font-size: 1rem;
+            margin: 5px 0 15px;
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill {
+            background: #2c3e50;
+            padding: 8px 15px;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        .contact-info {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="cv-container">
+        <div class="cv-header">
+            <h1>[İsminiz]</h1>
+            <p>Web Geliştirici | Grafik Tasarımcı | Yaratıcı Düşünür</p>
+        </div>
+
+        <section class="section">
+            <h2 class="section-title">Eğitim</h2>
+            <h3>[Üniversite Adı]</h3>
+            <p>Bölüm: Bilgisayar Mühendisliği</p>
+            <p>Mezuniyet Yılı: 2020</p>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">İş Deneyimi</h2>
+            <h3>[Şirket Adı]</h3>
+            <p>Pozisyon: Web Geliştirici</p>
+            <p>Çalışma Yılı: 2020 - Günümüz</p>
+            <p>Sorumluluklar: Web sitesi tasarımı ve geliştirilmesi, kullanıcı deneyimi optimizasyonu, performans analizi.</p>
+
+            <h3>[Önceki Şirket Adı]</h3>
+            <p>Pozisyon: Stajyer</p>
+            <p>Çalışma Yılı: 2019</p>
+            <p>Sorumluluklar: Ön yüz geliştirme, basit grafik tasarım görevleri.</p>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Beceriler</h2>
+            <div class="skills-list">
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">React</span>
+                <span class="skill">Node.js</span>
+                <span class="skill">Photoshop</span>
+                <span class="skill">Illustrator</span>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">İletişim</h2>
+            <div class="contact-info">
+                <p><strong>Email:</strong> email@ornek.com</p>
+                <p><strong>Telefon:</strong> +90 123 456 78 90</p>
+                <p><strong>Adres:</strong> İstanbul, Türkiye</p>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
