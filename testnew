@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Sayfa | Kişisel Web Sitesi</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background: linear-gradient(135deg, #2c3e50, #bdc3c7);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2rem;
+            color: #ecf0f1;
+            margin-bottom: 30px;
+        }
+        .nav-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #e74c3c;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            transition: background-color 0.3s;
+        }
+        .nav-button:hover {
+            background-color: #c0392b;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Kişisel Web Sitesine Hoşgeldiniz</h1>
+        <p>Portföyümü ve diğer bilgileri keşfetmek için aşağıdaki bağlantıya tıklayın.</p>
+        <a href="index.html" class="nav-button">Siteye Giriş Yap</a>
+    </div>
+
+</body>
+</html>
