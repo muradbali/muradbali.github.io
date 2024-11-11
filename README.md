@@ -1,4 +1,4 @@
-# muradbali.github.io
+# muradbali.com.tr
 
 # Kişisel Web Sayfası - Murad Balı
 
